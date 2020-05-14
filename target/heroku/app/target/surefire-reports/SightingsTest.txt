@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: SightingsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.251 sec <<< FAILURE! - in SightingsTest
+find_returnSpecificSighting_testSighting1(SightingsTest)  Time elapsed: 0.04 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+sighting_instanceOfSightings_true(SightingsTest)  Time elapsed: 0.014 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+save_recordsWhenTheSightingWasViewed(SightingsTest)  Time elapsed: 0.024 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getAnimalId_getTheAnimalId_int(SightingsTest)  Time elapsed: 0.015 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getLocation_getSightingLocation_location(SightingsTest)  Time elapsed: 0.015 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getRanger_getTheRangerName_ranger(SightingsTest)  Time elapsed: 0.016 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+save_saveSAnimalIDIntoDb_true(SightingsTest)  Time elapsed: 0.027 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+all_returnsAllInstancesOfSightings_true(SightingsTest)  Time elapsed: 0.023 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+equal_checkWhetherSightingsContentAreTheSame_true(SightingsTest)  Time elapsed: 0.012 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+save_returnsTrueIfTheSavedAreEqual(SightingsTest)  Time elapsed: 0.023 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+save_assignsIdToSpecificInstance(SightingsTest)  Time elapsed: 0.035 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+

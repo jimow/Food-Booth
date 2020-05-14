@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: EndangeredAnimalTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.694 sec <<< FAILURE! - in EndangeredAnimalTest
+EndangeredAnimal_instanceOfEndangeredAnimal_true(EndangeredAnimalTest)  Time elapsed: 0.378 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getAge_returnAgeLevelOfTheAnimal_okay(EndangeredAnimalTest)  Time elapsed: 0.027 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getName_returnNameOfEndangeredAnimal_cat(EndangeredAnimalTest)  Time elapsed: 0.023 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+all_returnsAllInstancesOfEndangeredAnimal_true(EndangeredAnimalTest)  Time elapsed: 0.038 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+EndangeredAnimal_instantiatesWithOkayHealthLevel(EndangeredAnimalTest)  Time elapsed: 0.016 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+save_savesEndangeredAnimalInstanceToDB_EndangeredAnimal(EndangeredAnimalTest)  Time elapsed: 0.035 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+EndangeredAnimal_instantiatesWithYoungAgeLevel(EndangeredAnimalTest)  Time elapsed: 0.016 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+equals_returnsTrueIfNamesAreTheSame_true(EndangeredAnimalTest)  Time elapsed: 0.018 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+id_assignIdToSpecificInstance(EndangeredAnimalTest)  Time elapsed: 0.047 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getSightings_retrievesAllSightingsFromDB_sightingList(EndangeredAnimalTest)  Time elapsed: 0.037 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getHealth_returnHealthLevelOfTheAnimal_okay(EndangeredAnimalTest)  Time elapsed: 0.015 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+

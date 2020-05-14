@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.container-fluid{
+    max-width: 100wh;
+    padding: 0px;
+    margin: 0px;
+    height:100vh;
+    background: url(/images/dan-gold-4_jhDO54BYg-unsplash.jpg);
+    background-size: cover;
+}
+.navbar{
+    height:80px;
+    background-color:black;
+}
+.navbody{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-right:60px;
+}
+.navbody li{
+    display: inline-block;
+}
+.navbody a{
+    text-decoration: none;
+    font-family:  sans-serif;;
+    color: #edf0f1;
+    font-size: 18px;
+    cursor: pointer;
+}
+.navbody li a{
+    padding: 10px 40px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    text-decoration: none;
+}
+.navbody li a:hover{
+    transition: all 0.5s ease 0s;
+}
+.content{
+    margin: 220px 100px;
+    text-align:center;
+}
+.content h1{
+    font-size: 100px;
+    font-weight: 100;
+    font-family: san-serif;
+    line-height: 100px;
+    color:brown;
+}
+.pages h2{
+    font-size: 40px;
+    font-weight: 50;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.pages p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.content p{
+   font-size: 30px;
+  font-family: sans-serif;
+}
+.content a{
+    color:white;
+    border: 2px solid #667618;
+    padding: 6px 22px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius:10px;
+    background-color:#667618;
+    display: inline-block;
+}
+.content a:hover{
+    background-color: white;
+    color:black;
+}
+.pages a{
+    border-radius:10px;
+    color:white;
+    border: 2px solid #667618;
+    padding: 6px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color:#667618;
+    display: inline-block;
+}
+.pages a:hover{
+    background-color: white;
+    color:black;
+}
+ul li ul {
+	visibility: hidden;
+    opacity: 0;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  max-width:100%;
+  opacity: 1;
+  display: block;
+  transition: all 0.5s ease;
+  background-color:#15151e ;
+  border:none;
+}
+.dplinks:hover{
+background-color:#15151e ;
+color:black;
+}
+.card{
+    height: 350px;
+    width: 300px;
+    border:none;
+    border-top:2px solid black;
+    border-right:2px solid black;
+    margin:5px 10px 10px 20px;
+    border-radius: 0px 10px 0px 0px;
+    padding: 5px 10px;
+}
+.teamsname{
+    border-bottom:2px solid black;
+    font-family: sans-serif;
+}
+.teams-col a{
+    border-radius:10px;
+    color:white;
+    border: 1.5px solid #667618;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color:#667618;
+    transition: all 0.5s ease 0s;
+    margin-left:10px;
+}
+.teams-col a:hover{
+     transition: all 0.5s ease 0s;
+    background-color: white;
+    color:black
+}
+.teams-col img{
+    height: 20vh;
+    width: 270px;
+}
+.teamstitle{
+    color: #e65d30;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.card-body p{
+        padding-top:10px;
+        font-size: 18px;
+        line-height:2px;
+        font-family: sans-serif;
+}
+.label{
+    font-size:20px;
+    color:black;
+}
+.footer{
+    color:black
+}

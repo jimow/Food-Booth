@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: NormalAnimalTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.161 sec <<< FAILURE! - in NormalAnimalTest
+save_savesNormalAnimalInstanceToDB_NormalAnimal(NormalAnimalTest)  Time elapsed: 0 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+all_returnsAllInstancesOfNormalAnimal_true(NormalAnimalTest)  Time elapsed: 0.044 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getSighting_retrievesAllSightingFromDB_monsterList(NormalAnimalTest)  Time elapsed: 0.035 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+NormalAnimal_instanceOfNormalAnimal_true(NormalAnimalTest)  Time elapsed: 0.018 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+getName_returnNameOfNormalAnimal_cat(NormalAnimalTest)  Time elapsed: 0.017 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+equals_returnsTrueIfNamesAreTheSame_true(NormalAnimalTest)  Time elapsed: 0.017 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+
+id_assignIdToSpecificInstance(NormalAnimalTest)  Time elapsed: 0.027 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: password authentication failed for user "billyayiera"
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "billyayiera"
+

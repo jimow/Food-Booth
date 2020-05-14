@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+*{
+    color:white;
+}
+.members h2{
+	font-size:30px;
+	color: white;
+}
+table{
+	border: 1px solid #667618;
+	opacity: 0.9;
+	font-family: 'Comfortaa', cursive;
+
+}
+td,th{
+	padding:6px 0px;
+	text-align: center;
+	color: white;
+	border: none;
+	width:50px;
+
+}
+th{
+	background-color: #667618;
+	font-weight: 800;
+	font-size:18px;
+}
+tr:nth-child(even){
+	background-color: rgba(0, 0, 0, 0.7);
+}
+tr:nth-child(odd){
+	background-color:  rgba(0, 0, 0, 0.4);
+}

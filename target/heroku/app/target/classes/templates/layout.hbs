@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wildlife Tracker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"  href="/css/home.css">
+    <link rel="stylesheet" type="text/css"  href="/css/form.css">
+    <link rel="stylesheet" type="text/css"  href="/css/table.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="welcome">
+        <div class="navbar">
+            <div class="navbody">
+                <ul>
+                    <li><a class="a" href="/">Home</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Non Endangered Animals <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dplinks" href="/animals"  style="color:white; background-color:transparent ;">View Animals</a></li>
+                            <li><a class="dplinks" href="/animal/form"  style="color:white; background-color:transparent ;">Add Animal</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Endangered Animals <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dplinks" href="/endangered"  style="color:white; background-color:transparent ;">View Animals</a></li>
+                            <li><a class="dplinks" href="/endangered/form"  style="color:white; background-color:transparent ;">Add Animal</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sighting<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li ><a class="dplinks" href="/sightings"  style="color:white; background-color:transparent ;">View Sighting</a></li>
+                            <li ><a class="dplinks" href="/sightings/form"  style="color:white; background-color:transparent ;">Add Sighting</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-12">
+            {{#block "content"}}
+            {{/block}}
+        </div>
+    </div>
+</div>
+{{#block "footer"}}
+    <footer class="footer">
+    </footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+      $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+              }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        });
+    </script>
+    </html>
+{{/block}}
